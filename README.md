@@ -8,7 +8,7 @@ Estudantes iniciantes encontram dificuldade em conectar expressões de cálculo 
 
 ## Integrantes
 
-- [Preencher com os nomes reais dos integrantes e a turma]
+- [Paulo Ricardo Alves Nunes]
 
 ## Tecnologias
 
@@ -71,7 +71,9 @@ Consulte `TESTES.md`. Antes de enviar, execute os testes no navegador, registre 
 
 - **Ferramenta:** ChatGPT (OpenAI).
 - **Objetivo:** planejar e implementar uma aplicação web acadêmica de cálculo com quatro módulos.
-- **Prompt original do estudante:** "desenvolva tudo pra mim chat, dps vc me ensina como funciona pra eu passar pra professora" (após envio das aulas e das regras, e pedido de digitar funções livremente).
+- **Prompt original do estudante:** "Atue como um desenvolvedor web experiente, com conhecimentos em matemática, cálculo diferencial e integral, visualização de dados e experiência do usuário.
+Preciso desenvolver uma aplicação web educacional chamada Laboratório Interativo de Cálculo, destinada a auxiliar estudantes na compreensão prática dos conceitos de funções, limites, derivadas e integrais.
+O objetivo é criar uma ferramenta interativa que permita ao usuário inserir expressões matemáticas, visualizar gráficos, explorar resultados numéricos e simbólicos e compreender o comportamento das funções.
 - **Resultado:** geração inicial dos arquivos HTML, CSS, JavaScript, documentação e casos de teste.
 - **Ajustes e validação humana:** [Preencher após executar, revisar, compreender, corrigir e testar os resultados. Registrar novos prompts efetivamente usados.]
 
