@@ -126,5 +126,10 @@ input[type=range]{accent-color:#eaeaea}
 /* Ocultar seletor de idiomas */
 .lang-switch {
   display: none !important;
-}
+/* Remover completamente o seletor de idiomas */
+.language-control,
+.lang-switch,
+label[for="language"],
+#language {
+  display: none !important;
 }
