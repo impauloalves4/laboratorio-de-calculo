@@ -31,7 +31,7 @@ Projeto AP2 — Engenharia de Software — 2026.2
 
 ## Evidências
 
-Os testes conferidos foram documentados por capturas de tela compartilhadas durante a revisão. Para arquivar as evidências no GitHub, criar uma pasta `evidencias/` e enviar as imagens reais, caso isso seja solicitado pela professora. Não declarar evidências anexadas ao repositório antes de enviá-las.
+Os testes conferidos foram documentados por capturas de tela compartilhadas durante a revisão. As sete capturas reais estão preparadas na pasta `evidencias/` deste pacote. Ao enviar a pasta ao GitHub, os links de imagens do README passarão a funcionar. Não considerar o envio concluído antes da confirmação no repositório.
 
 ## Conclusão
 

@@ -3,37 +3,37 @@
 **Projeto acadêmico AP2 — Engenharia de Software — 2026.2**
 
 **Integrante:** Paulo Ricardo Alves Nunes  
-**Turma:** TURMA A
+**Turma:** A
 
 **Aplicação:** https://impauloalves4.github.io/laboratorio-de-calculo/index.html  
 **Código-fonte:** https://github.com/impauloalves4/laboratorio-de-calculo
 
-## 1\. Problema e objetivo
+## 1. Problema e objetivo
 
 No início do estudo de Cálculo Diferencial e Integral, nem sempre é fácil relacionar expressões algébricas aos gráficos e aos resultados numéricos. O Laboratório Interativo de Cálculo foi desenvolvido para permitir que o estudante experimente funções, altere parâmetros e observe visualmente os conceitos estudados.
 
 O objetivo é oferecer uma ferramenta educacional, executada no navegador, que reúna funções, limites, derivadas e integrais em uma interface simples, com explicações e gráficos interativos.
 
-## 2\. Tecnologias utilizadas
+## 2. Tecnologias utilizadas
 
-* **HTML5:** estrutura e organização dos módulos.
-* **CSS3:** identidade visual escura e layout responsivo.
-* **JavaScript:** interação, validação das entradas e atualização dos resultados.
-* **Math.js 13.2.0:** interpretação e avaliação de expressões matemáticas.
-* **Nerdamer 1.1.13:** operações simbólicas, como derivação e integração.
-* **Plotly.js 2.35.2:** visualização e interação com os gráficos.
+- **HTML5:** estrutura e organização dos módulos.
+- **CSS3:** identidade visual escura e layout responsivo.
+- **JavaScript:** interação, validação das entradas e atualização dos resultados.
+- **Math.js 13.2.0:** interpretação e avaliação de expressões matemáticas.
+- **Nerdamer 1.1.13:** operações simbólicas, como derivação e integração.
+- **Plotly.js 2.35.2:** visualização e interação com os gráficos.
 
 A aplicação não exige servidor de aplicação ou banco de dados. As bibliotecas são carregadas pela internet; portanto, é necessária conexão para seu funcionamento completo.
 
-## 3\. Como executar
+## 3. Como executar
 
 **Pelo navegador:** acesse o link da aplicação informado no início deste documento.
 
 **Localmente:** baixe os arquivos do repositório e abra `index.html` em um navegador atualizado, com acesso à internet. Se houver restrições à abertura local, utilize um servidor simples, como a extensão Live Server do VS Code ou `python -m http.server 8000` na pasta do projeto.
 
-Na página inicial, digite uma função em termos de `x`, utilizando `\*` para multiplicação e `^` para potência. Exemplo: `x^2+3\*x-5`. Clique em **Analisar função** e navegue pelos módulos. O módulo de Limites possui campos próprios; Derivadas e Integrais usam a função informada na calculadora principal.
+Na página inicial, digite uma função em termos de `x`, utilizando `*` para multiplicação e `^` para potência. Exemplo: `x^2+3*x-5`. Clique em **Analisar função** e navegue pelos módulos. O módulo de Limites possui campos próprios; Derivadas e Integrais usam a função informada na calculadora principal.
 
-## 4\. Funcionalidades e fundamentos matemáticos
+## 4. Funcionalidades e fundamentos matemáticos
 
 ### 4.1 Funções
 
@@ -51,44 +51,44 @@ Calcula simbolicamente a derivada quando a biblioteca consegue processar a expre
 
 Apresenta uma primitiva simbólica, quando disponível, e calcula integrais definidas numericamente pela **regra de Simpson**. A região preenchida no gráfico representa a acumulação com sinal: trechos abaixo do eixo horizontal contribuem negativamente. Os limites de integração podem ser ajustados interativamente.
 
-## 5\. Organização dos arquivos
+## 5. Organização dos arquivos
 
-* `index.html` — estrutura da página e dos módulos.
-* `style.css` — aparência e adaptação da interface.
-* `app.js` — cálculos, validações e gráficos.
-* `panels.js` — painéis de resultados e atualizações interativas.
-* `favicon.svg` — ícone da aplicação.
-* `README.md` — documentação do projeto.
-* `TESTES.md` — roteiro de verificação e resultados observados, a ser adicionado ao repositório.
+- `index.html` — estrutura da página e dos módulos.
+- `style.css` — aparência e adaptação da interface.
+- `app.js` — cálculos, validações e gráficos.
+- `panels.js` — painéis de resultados e atualizações interativas.
+- `favicon.svg` — ícone da aplicação.
+- `README.md` — documentação do projeto.
+- `TESTES.md` — roteiro de verificação e resultados observados, a ser adicionado ao repositório.
 
 **Fluxo geral:** entrada do usuário → validação e interpretação → cálculo matemático → atualização dos gráficos e painéis.
 
-## 6\. Validação realizada no navegador
+## 6. Validação realizada no navegador
 
 Durante a revisão da versão publicada, foram conferidos os seguintes casos por meio de capturas de tela:
 
-|Módulo|Entrada|Resultado observado|
-|-|-|-|
-|Funções|`x^2+3\*x-5`|`f(2)=5`, vértice `(-1,5; -7,25)`, domínio real e imagem `\[-7,25; +∞)`|
-|Funções — interação|ponto movido para `x=4`|`f(4)=23`, com atualização do gráfico e painel|
-|Limites|`sin(x)/x`, aproximação em `0`|limite estimado `≈1`, laterais `1` e valor da função indefinido em `0`|
-|Derivadas|`x^2`|derivada `2\*x`|
-|Derivadas — interação|tangente em `x=2`|`f(2)=4` e inclinação `4`|
-|Integral indefinida|`x^2`|`F(x)=(1/3)\*x^3+C`|
-|Integral definida|`x^2`, intervalo `\[0,2]`|`≈2,666667`, com área preenchida|
+| Módulo | Entrada | Resultado observado |
+|---|---|---|
+| Funções | `x^2+3*x-5` | `f(2)=5`, vértice `(-1,5; -7,25)`, domínio real e imagem `[-7,25; +∞)` |
+| Funções — interação | ponto movido para `x=4` | `f(4)=23`, com atualização do gráfico e painel |
+| Limites | `sin(x)/x`, aproximação em `0` | limite estimado `≈1`, laterais `1` e valor da função indefinido em `0` |
+| Derivadas | `x^2` | derivada `2*x` |
+| Derivadas — interação | tangente em `x=2` | `f(2)=4` e inclinação `4` |
+| Integral indefinida | `x^2` | `F(x)=(1/3)*x^3+C` |
+| Integral definida | `x^2`, intervalo `[0,2]` | `≈2,666667`, com área preenchida |
 
 Esses testes verificam exemplos representativos; **não garantem o funcionamento de todas as expressões possíveis**. O roteiro detalhado e testes adicionais estão previstos em `TESTES.md`.
 
-## 7\. Limitações e tratamento de erros
+## 7. Limitações e tratamento de erros
 
-* O programa reconhece um conjunto limitado de operadores e funções matemáticas.
-* Domínio e imagem gerais não são determinados automaticamente para qualquer expressão.
-* Limites são estimados numericamente; oscilações, singularidades e convergência lenta podem causar resultados inconclusivos.
-* Algumas funções não possuem primitivas elementares encontradas pelo mecanismo simbólico.
-* A regra de Simpson fornece aproximações e não deve ser considerada confiável em intervalos com singularidades internas; algumas singularidades podem não ser detectadas pela amostragem.
-* Entradas inválidas são sinalizadas, e o carregamento das bibliotecas externas depende de internet.
+- O programa reconhece um conjunto limitado de operadores e funções matemáticas.
+- Domínio e imagem gerais não são determinados automaticamente para qualquer expressão.
+- Limites são estimados numericamente; oscilações, singularidades e convergência lenta podem causar resultados inconclusivos.
+- Algumas funções não possuem primitivas elementares encontradas pelo mecanismo simbólico.
+- A regra de Simpson fornece aproximações e não deve ser considerada confiável em intervalos com singularidades internas; algumas singularidades podem não ser detectadas pela amostragem.
+- Entradas inválidas são sinalizadas, e o carregamento das bibliotecas externas depende de internet.
 
-## 8\. Uso de inteligência artificial e validação humana
+## 8. Uso de inteligência artificial e validação humana
 
 **Ferramenta utilizada:** ChatGPT, da OpenAI.
 
@@ -102,9 +102,37 @@ Esses testes verificam exemplos representativos; **não garantem o funcionamento
 
 **Observação:** a descrição acima resume o processo conhecido. Caso a professora exija a transcrição literal dos prompts utilizados, eles devem ser recuperados do histórico real da conversa, sem inventar falas ou etapas.
 
-## 9\. Entrega
+## 9. Entrega
 
 O projeto está disponível em repositório público no GitHub e em página web acessível pelo navegador. Para a entrega, conferir as orientações mais recentes da disciplina, informar a turma e anexar o link solicitado no ambiente da faculdade.
 
-**Prazos anotados na documentação anterior:** Turma A — 03/12/2026; Turma B — 30/11/2026. Confirmar no comunicado oficial da professora.
+**Prazo de envio da Turma A:** 03/12/2026, conforme o guia oficial da AP2. Enviar exclusivamente o link do repositório pelo Google Classroom. A orientação prevê o comparecimento de pelo menos um integrante para uma breve explicação do projeto, sem apresentação oral para toda a turma.
 
+
+## 10. Evidências visuais dos testes
+
+As imagens abaixo são capturas reais da aplicação publicada, registradas durante a revisão dos módulos. Elas comprovam os resultados dos exemplos apresentados, sem representar uma validação exaustiva do software.
+
+### Funções — análise e ponto interativo
+
+![Função quadrática: gráfico, vértice, domínio e imagem](evidencias/01_funcoes_resultados.png)
+
+![Função quadrática: ponto movido para x igual a 4](evidencias/02_funcoes_interacao.png)
+
+### Limites — sin(x)/x quando x tende a zero
+
+![Limite lateral e bilateral estimado como 1](evidencias/03_limites.png)
+
+### Derivadas — derivada de x² e reta tangente
+
+![Derivada de x² e reta tangente na origem](evidencias/04_derivadas.png)
+
+![Reta tangente em x igual a 2, inclinação 4](evidencias/05_derivadas_tangente.png)
+
+### Integrais — definida e indefinida
+
+![Integral definida de x² entre 0 e 2](evidencias/06_integral_definida.png)
+
+![Primitiva de x² e resultado da integral definida](evidencias/07_integral_indefinida.png)
+
+Os procedimentos e resultados observados estão detalhados em [TESTES.md](TESTES.md).
