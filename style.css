@@ -123,4 +123,8 @@ input[type=range]{accent-color:#eaeaea}
   max-width: none;
   padding-left: 42px;
   padding-right: 25px;
+/* Ocultar seletor de idiomas */
+.lang-switch {
+  display: none !important;
+}
 }
