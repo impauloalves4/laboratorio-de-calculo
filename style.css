@@ -117,3 +117,10 @@ input[type=range]{accent-color:#eaeaea}
 #derivadas .result-dashboard.calculation-warning{border-color:#a76a27}
 #derivadas .result-dashboard.calculation-warning #metric-der-slope{color:#fbbf24;font-size:clamp(19px,2vw,27px)}
 #derivadas .result-dashboard.calculation-warning #der-meaning{border-left-color:#fbbf24;color:#fde68a;background:#292319}
+/* Ajuste das bandeiras e idiomas */
+.lang-switch .language-control select {
+  min-width: 190px;
+  max-width: none;
+  padding-left: 42px;
+  padding-right: 25px;
+}
