@@ -3,7 +3,7 @@
 **Projeto acadêmico AP2 — Engenharia de Software — 2026.2**
 
 **Integrante:** Paulo Ricardo Alves Nunes  
-**Turma:** a confirmar
+**Turma:** TURMA A
 
 **Aplicação:** https://impauloalves4.github.io/laboratorio-de-calculo/index.html  
 **Código-fonte:** https://github.com/impauloalves4/laboratorio-de-calculo
