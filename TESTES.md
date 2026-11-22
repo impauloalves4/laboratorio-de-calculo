@@ -22,12 +22,12 @@ Projeto AP2 — Engenharia de Software — 2026.2
 
 | ID | Procedimento | Resultado matemático esperado | Situação |
 |---|---|---|---|
-| L02 | `abs(x)/x`, `a=0` | Limite bilateral não existe (`-1` à esquerda e `1` à direita) | Pendente nesta revisão |
-| L03 | `1/x^2`, `a=0` | Diverge para `+∞` | Pendente nesta revisão |
-| D03 | `abs(x)` em `x=0` | Não derivável no ponto | Pendente nesta revisão |
-| I03 | `sin(x)` entre `0` e `2` | `1-cos(2) ≈ 1,416147` | Pendente nesta revisão |
-| E01 | Digitar expressão inválida | Mensagem de erro clara, sem resultado matemático falso | Pendente nesta revisão |
-| R01 | Abrir em tela pequena | Campos e gráficos utilizáveis, sem sobreposição relevante | Pendente nesta revisão |
+| L02 | `abs(x)/x`, `a=0` | Limite bilateral não existe (`-1` à esquerda e `1` à direita) | Conferido por captura de tela em 22/11/2026 |
+| L03 | `1/x^2`, `a=0` | Diverge para `+∞` | Conferido por captura de tela em 22/11/2026 |
+| D03 | `abs(x)` em `x=0` | Não derivável no ponto | Conferido por captura de tela em 22/11/2026 |
+| I03 | `sin(x)` entre `0` e `2` | `1-cos(2) ≈ 1,416147` | Conferido por captura de tela em 22/11/2026 |
+| E01 | Digitar expressão inválida | Mensagem de erro clara, sem resultado matemático falso | Conferido por captura de tela em 22/11/2026 |
+| R01 | Abrir em tela pequena | Campos e gráficos utilizáveis, sem sobreposição relevante | Conferido por captura de tela em 22/11/2026 |
 
 ## Evidências
 
