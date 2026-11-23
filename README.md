@@ -101,7 +101,17 @@ Esses testes verificam exemplos representativos; **não garantem o funcionamento
 **Validação humana:** o estudante executou exemplos no site publicado e compartilhou capturas de tela dos resultados. Foram conferidos os valores apresentados na seção 6, comparando-os aos resultados matemáticos esperados. Essa conferência não substitui testes exaustivos nem a compreensão dos conceitos envolvidos.
 
 **Observação:** a descrição acima resume o processo conhecido. Caso a professora exija a transcrição literal dos prompts utilizados, eles devem ser recuperados do histórico real da conversa, sem inventar falas ou etapas.
+### Exemplos de solicitações feitas à IA
 
+Durante o desenvolvimento, foram realizadas solicitações ao ChatGPT relacionadas a:
+
+- Desenvolvimento de uma ferramenta acadêmica de cálculo diferencial e integral com visual minimalista e fundo preto.
+- Organização da aplicação em módulos separados de funções, limites, derivadas e integrais, com navegação vertical.
+- Implementação de gráficos interativos, campos para expressões matemáticas e painéis de resultados.
+- Revisão das funcionalidades e conferência de resultados matemáticos por meio de testes.
+- Organização da documentação e publicação do projeto no GitHub.
+
+Os itens acima são resumos das solicitações realizadas, e não transcrições literais. A validação foi feita pelo estudante, comparando os resultados apresentados com os valores matemáticos esperados e registrando capturas de tela no repositório.
 ## 9. Entrega
 
 O projeto está disponível em repositório público no GitHub e em página web acessível pelo navegador. Para a entrega, conferir as orientações mais recentes da disciplina, informar a turma e anexar o link solicitado no ambiente da faculdade.
